@@ -1,5 +1,11 @@
 {
   "name": "@myscope/tspackage",
   "version": "0.0.0",
-  "main": "src/index.ts"
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
